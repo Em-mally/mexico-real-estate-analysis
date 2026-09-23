@@ -28,6 +28,12 @@ This project processes, cleans, and analyzes real estate market data across Mexi
 ## 📈 Key Insights & Business Findings
 - Property surface area ($m^2$) showed a strong positive correlation with price, particularly in urban commercial hubs.
 - Price variance was significantly driven by state-level locations, with state capital regions commanding higher premiums per $m^2$.
+- 
+  ##Repository Structure
+- `MRE-1-cleaned.ipynb`: Data wrangling, handling missing values, and data cleaning pipeline.
+- `mexico-real-estate-Visual.ipynb`: Exploratory data analysis, distributions, and price charts.
+- `Mexico-RE-correlation.ipynb`: Correlation matrices and feature analysis determining price drivers.
+- `mexico-real-estate-combined-clean.csv`: Cleaned dataset with 1,736 processed real estate listings.
 
 ## How to Run
 1. Clone the repository:
