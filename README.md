@@ -1,19 +1,19 @@
 # Mexico Real Estate Market & Price Analysis
 
-# 📌 Project Overview
+# Project Overview
 This project processes, cleans, and analyzes real estate market data across Mexico. It covers the full data pipeline: merging multi-source raw files, handling missing geographical coordinates, trimming pricing outliers, and generating visualizations to identify key price determinants.
 
-## 🛠️ Tools & Technologies
+## Tools & Technologies
 - **Language:** Python
 - **Data Manipulation:** Pandas, NumPy
 - **Data Visualization:** Matplotlib, Seaborn, Plotly
 - **Environment:** Jupyter Notebooks / WorldQuant University Lab
 
-## 📂 Repository Contents
+## Repository Contents
 - `mexico_real_estate_analysis.ipynb`: Complete Python notebook containing data wrangling, cleaning pipelines, and visual analysis.
 - `mexico-real-estate-combined-clean.csv`: Cleaned dataset containing 1,736 processed property records.
 
-## 🔄 Project Workflow & Analysis
+## Project Workflow & Analysis
 
 ### 1. Data Cleaning & Pipeline
 - Merged multi-source CSV records into a unified DataFrame.
@@ -29,7 +29,7 @@ This project processes, cleans, and analyzes real estate market data across Mexi
 - Property surface area ($m^2$) showed a strong positive correlation with price, particularly in urban commercial hubs.
 - Price variance was significantly driven by state-level locations, with state capital regions commanding higher premiums per $m^2$.
 
-## 🚀 How to Run
+## How to Run
 1. Clone the repository:
    ```bash
    git clone [https://github.com/em-mally/mexico-real-estate-analysis.git](https://github.com/your-username/mexico-real-estate-analysis.git)
